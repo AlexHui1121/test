@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>20046876D_Drink Ordering System</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style/order.css">
+</head>
+
+<body>
+    <h1>Drink Ordering System</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li class="currentpage"><a href="#">Order</a></li>
+            <li><a href="#">Menu</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form>
+            <div class="name-input">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="drink-select">
+                <Label for="drink">Drink:</Label>
+                <select id="drink" name="drink">
+                    <option value="bubble-milktea">Bubble Milktea</option>
+                    <option value="iced-latte">Iced Latte</option>
+                </select>
+            </div>
+            <div class="size-select">
+                <label for="size">Size:</label>
+                <input type="radio" id="small" name="size" value="small">
+                <label for="small">Small</label>
+                <input type="radio" id="medium" name="size" value="medium">
+                <label for="medium">Medium</label>
+                <input type="radio" id="large" name="size" value="large">
+                <label for="large">Large</label>
+            </div>
+            <div class="submission">
+                <input type="submit" value="Place Order">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 20046876D HUI Lai Yuk - EIE4432 Lab 1 Project</p>
+    </footer>
+</body>
+
+</html>
